@@ -1,0 +1,93 @@
+body{margin:0;padding:0;font-size:12px;color:#333;line-height:22px;/*#bab6b6*/ font-family:"ËÎÌו";}
+
+.enjoy {
+  display: inline-block;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  cursor: pointer;
+  padding: 8px 27px;
+  border: 1px solid #018dc4;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  font: normal 16px/normal "Times New Roman", Times, serif;
+  color: rgba(255,255,255,0.9);
+  -o-text-overflow: clip;
+  text-overflow: clip;
+  background: #0199d9;
+  -webkit-box-shadow: 2px 2px 2px 0 rgba(0,0,0,0.2) ;
+  box-shadow: 2px 2px 2px 0 rgba(0,0,0,0.2) ;
+  text-shadow: -1px -1px 0 rgba(15,73,168,0.66) ;
+  -webkit-transition: all 300ms cubic-bezier(0.42, 0, 0.58, 1);
+  -moz-transition: all 300ms cubic-bezier(0.42, 0, 0.58, 1);
+  -o-transition: all 300ms cubic-bezier(0.42, 0, 0.58, 1);
+  transition: all 300ms cubic-bezier(0.42, 0, 0.58, 1);
+}
+
+div,ul,li{margin:0;padding:0;border:0;}
+a:link,a:visited{color:#333333; text-decoration:none;}
+a:hover,a:active{color:#cc0000; text-decoration:underline;}
+li{list-style:none;}
+font{color:#333;}
+a:link font,a:visited font{color:#333;}
+a:hover font,a:active font{color:#c00;}
+.bufff{width:1000px; margin-left:auto; margin-right:auto; background:#fff; padding-left:4px; padding-right:4px;}
+.inping01{width:1000px; height:1136px; margin-left:auto; margin-right:auto; background:#fff; padding:10px 4px 0 4px;}
+.mainnav{width:998px; border:solid 1px #c5dfff; height:142px; position:relative; z-index:100; color:#1f376d; background:#fff;}
+.mainnav ul li{position:relative;width:132px; height:142px; float:left;}
+.mainnav ul li a{display:block;color:#333}
+.mainnav ul li a:hover{background:#fff}
+.mainnav ul ul{visibility:visible;width:132px; height:142px;overflow:hidden; position:absolute; left:0; top:0;}
+.mainnav ul ul li{width:54px; height:22px; float:left;text-align:left;font-size:12px; padding-left:9px;}
+.mainnav ul li:hover ul,.mainnav ul a:hover ul{visibility:visible;width:130px; height:auto;position:absolute;left:-2px;top:-2px; border:solid 2px #1d569c; background:#fff; overflow:inherit; padding-bottom:2px;}
+.mainnav ul ul li.imtext{width:121px;height:25px;line-height:25px;background-position:0 -37px; border-right:solid 1px #c5dfff; font-weight:bold; padding-left:10px;}
+.mainnav ul ul li.gaodu{width:122px; height:4px;border-right:dotted 1px #c5dfff; margin-top:1px; overflow:hidden;}
+.mainnav ul ul li.imtext7{width:62px;height:25px;line-height:25px;background-position:0 -37px; border-right:solid 1px #c5dfff; font-weight:bold; padding-left:10px;}
+.mainnav ul ul li.gaodu2{width:63px; height:4px;border-right:dotted 1px #c5dfff; margin-top:1px; overflow:hidden;}
+.mainnav ul li:hover ul li.imtext,.mainnav ul a:hover ul li.imtext{width:119px;}
+.mainnav ul li:hover ul li.imtext7,.mainnav ul a:hover ul li.imtext7{width:61px;}
+.mainnav ul li:hover ul li.gaodu,.mainnav ul a:hover ul li.gaodu{width:120px;}
+.mainnav ul li:hover ul li.gaodu2,.mainnav ul a:hover ul li.gaodu2{width:61px;}
+.mainnav ul ul li.imtext a{background-position:0 -36px;border-right:solid 1px #fff;}
+.mainnav ul ul li.imtext a:hover{background-position:0 -36px; background:none;}
+.mainnav ul ul li.imaxian{border-right:dotted 1px #c5dfff;width:59px;}
+.mainnav ul li:hover ul li.imaxian,.mainnav ul a:hover ul li.imaxian{width:57px;}
+.mainnav ul li.manli07,.mainnav ul ul.imanv07{width:74px;}
+.mainnav ul li:hover ul.imanv07,.mainnav ul a:hover ul.imanv07{width:72px;}
+.mainnav ul ul li.imaxian2{border-right:dotted 1px #c5dfff;width:63px;}
+.mainnav ul li:hover ul li.imaxian2,.mainnav ul a:hover ul li.imaxian2{width:62px;}
+.mainnav ul ul li a:link,.mainnav ul ul li a:visited{color:#1f376d;}
+.mainnav ul ul li a:hover,.mainnav ul ul li a:active{color:#c00;}
+.mainnav ul ul li.imdianxian{width:109px; height:5px; line-height:5px; border-bottom:dotted 1px #cc0000; margin-bottom:5px;_margin-bottom:3px; margin-left:5px;_margin-left:3px; overflow:hidden;}
+.mainnav table{position:absolute; top:0; left:0;}
+.imjiantou{background-position:-357px -0px;width:5px; height:5px; position:absolute; left:53px; top:11px; z-index:99; overflow:hidden;}
+.mainnav ul li:hover ul li .imjiantou,.mainnav ul a:hover ul li .imjiantou{background-position:-357px -10px;}
+
+
+.tushu {
+    width: 1000px; 
+    border:0px solid red; 
+    margin: 0 auto; 
+    padding-top: 10px;
+}
+#rexiao {
+    display: block;
+}
+#gongcheng {
+    display: none;
+}
+#kuaiji {
+    display: none;
+}
+#zige {
+    display: none;
+}
+#yixue {
+    display: none;
+}
+#xueli {
+    display: none;
+}
+#waiyu {
+    display: none;
+}
